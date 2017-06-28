@@ -1,0 +1,52 @@
+              <ul class="list-inline footer-links">
+            <li>
+              <a href="//www.facebook.com/sharer/sharer.php?u={{ .Permalink }}" title="Facebook" target="_blank">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                  </span>
+              </a>
+            </li>
+              <li>
+              <a href="//twitter.com/share?url={{ .Permalink }}&text={{ .Title }}&via={{ $.Site.Author.twitter }}" title="Twitter" target="_blank">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                  </span>
+              </a>
+</li>
+  <li>
+              <a href="//www.linkedin.com/shareArticle?url={{ .Permalink }}&title={{ .Title }}" title="Linkedin" target="_blank">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                  </span>
+              </a>
+              </li>
+                <li>
+
+              <a href="//plus.google.com/share?url={{ .Permalink }}" title="Google+" target="_blank">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
+                  </span>
+              </a>
+    </li>
+      <li>
+              <a href="//reddit.com/submit?url={{ .Permalink }}&title={{ .Title }}" title="Reddit" target="_blank">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-reddit-alien fa-stack-1x fa-inverse"></i>
+                  </span>
+              </a>
+              </li>
+                <li>
+
+              <a href="mailto:?subject=Check out this post by {{ .Params.author }}&body={{ .Permalink }}" title="Email me" target="_blank">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                  </span>
+              </a>
+              </li>
+              </ul>
