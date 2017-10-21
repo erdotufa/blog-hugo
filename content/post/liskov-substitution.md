@@ -2,6 +2,7 @@
 title: Liskov substitution
 subtitle: La teoria delle finestre rotte.
 date: 2017-07-05
+draft: true
 tags: ["Clean code", "Software entropy", "Refactoring", "SOLID"]
 bigimg: [{src: "/img/james-sutton-195612.jpg", desc: "Broken windows"}]
 ---
